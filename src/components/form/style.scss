@@ -6,6 +6,14 @@
     height: 570px;  
     position: absolute;
     top: 0;
+
+    @media (max-width: 768px) {
+        img {
+            display: none;
+        }
+
+    }
+
     .content {
         margin-left: -550px;
         display: flex;
@@ -27,11 +35,19 @@
             margin-top: 170px;
             margin-left: 40px;
             // padding-top: 100px;
+
+            
+            @media(max-width: 768px){
+                padding: 20px;
+                margin-left: 20px;
+            }
+
     
             #txt1{
                 font-weight: normal;
                 font-size: 30px;
                 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
             }
     
             #txt2{
@@ -58,6 +74,10 @@
             border: 1px;
             background-color: #f8f7f2;
             margin-left: -100px;
+
+            @media(max-width: 768px){
+                margin-left: -400px;
+            }
     
             div {
                 display: flex;

@@ -1,0 +1,35 @@
+{
+    "name": "jogga",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "gulp dev",
+        "build": "gulp build"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "browser-sync": "^2.26.13",
+        "gulp": "^4.0.2",
+        "gulp-cache": "^1.1.3",
+        "gulp-cached": "^1.1.1",
+        "gulp-clean": "^0.4.0",
+        "gulp-clean-css": "^4.0.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-connect": "^5.5.0",
+        "gulp-file-include": "^2.0.1",
+        "gulp-htmlmin": "^5.0.1",
+        "gulp-imagemin": "^5.0.3",
+        "gulp-sass": "^4.1.0",
+        "gulp-sass-glob": "^1.1.0",
+        "gulp-svgmin": "^3.0.0",
+        "gulp-svgstore": "^7.0.1",
+        "gulp-uglify": "^3.0.2",
+        "uglify-es": "^3.3.9"
+    },
+    "dependencies": {
+        "bootstrap": "^4.5.3",
+        "owl.carousel": "^2.3.4"
+    }
+}

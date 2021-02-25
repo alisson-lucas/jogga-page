@@ -1,0 +1,48 @@
+.options-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f7f2;
+    width: 100vw;
+    height: 500px;
+
+    .options-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        // width: 1000px;
+        // height: 500px;
+        // margin-top: 220px;
+        // margin-left: -770px;
+
+        ul {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-gap: 30px;
+            margin-top: 90px;
+    
+            li {
+                display: flex;
+                flex-direction: column;
+    
+                div {
+                    display: flex;
+                    flex-direction: column;
+                    width: 140px;
+    
+                    img {
+                        width: 90px;
+                    }
+    
+                    span {
+                        font-size: 10px;
+                        margin-top: 10px;
+                    }
+    
+                }
+            }
+        }
+    }
+
+}

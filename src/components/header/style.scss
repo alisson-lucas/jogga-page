@@ -6,14 +6,18 @@
     z-index: 2;
 
     @media (max-width: 768px){
-
         .buttons {
             display: flex;
             align-items: center;
             justify-content: space-between;
             margin-left: 250px;
         }
+    }
 
+    @media (max-width: 320px){
+        .buttons {
+            margin-left: 200px;
+        }
     }
 
 
@@ -81,6 +85,8 @@
                 font-size: 2rem;
             }
         }
+
+
     }
 
     .button-blue {
@@ -115,6 +121,7 @@
             padding: 0;
             width: 3rem;
             height: 3rem;
+            margin-left: 10px;
     
             & + .button-blue {
                 margin-left: 0.5rem;

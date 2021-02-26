@@ -6,7 +6,10 @@
     height: 132px;
     background-color: #231f20;
     margin-top: 100px;
-    // margin-left: -100px;
+    
+    @media(max-width: 320px){
+        width: 500px;
+    }
 
     .footer-text {
         font-size: 10px;

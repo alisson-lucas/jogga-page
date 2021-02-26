@@ -6,11 +6,26 @@
     margin-top: 490px;
     background-color: #f8f7f2;
 
+    @media (max-width: 320px) {
+        align-items: center;
+        justify-content: center;
+        margin-top: 730px;
+        flex-direction: column;
+    }
+
     .header-left {
         display: flex;
         align-items: center;
         background-color: #231f20;
         width: 470px;
+
+        @media (max-width: 320px) {
+            width: 705px;
+            height: 528px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
 
         span {
             color: #fcd64f;
@@ -20,6 +35,11 @@
             @media(max-width: 768px){
                 margin-left: 200px;
             }
+
+            @media (max-width: 320px) {
+                margin-top: 100px;
+                height: 70px;
+            }
         }
     }
 
@@ -28,17 +48,29 @@
         align-items: center;
         background-color: #f8f7f2;
         width: 100vw;
+
+        @media (max-width: 320px) {
+            justify-content: center;
+            margin-left: 160px; 
+            height: 220px;
+            width: 550px;
+        }
+
         
         div {
             width: 500px;
             margin-top: 100px;
             margin-left: 30px;
-
+            
             @media(max-width: 768px){
                 width: 350px;
             }
-
-
+            
+            @media (max-width: 320px) {
+                margin-top: 20px;
+            }
+            
+            
             span {
                 font-size: 12px;
             }

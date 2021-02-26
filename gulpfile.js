@@ -41,7 +41,11 @@ function html() {
 }
 
 function scripts() {
-    return gulp.src("src/components/**/*.js")
+    return gulp.src([
+        "node_modules/jquery/dist/jquery.js",
+        "node_modules/owl.carousel/dist/owl.carousel.js",
+        "src/components/**/*.js"
+        ])
         .pipe(concat("main.js"))
         // .pipe(uglify())
         .on('error', swallowError)
